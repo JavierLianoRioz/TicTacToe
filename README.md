@@ -46,3 +46,56 @@ Recapitulamos, vemos las clases creadas y elegimos una clase para continuar
   - [x] Codificamos el método que indica si el jugador ya puso todas sus fichas.
 
 Recapitulamos, vemos las clases que quedan pendientes y elegimos la que sigue.
+
+---
+
+### Tercera iteración
+
+- [x] Elegir la clase: ***Turno***
+- [x] Definimos/leemos la interfaz: a quién le toca, a quién no le toca y cambio de turno.
+- [x] Definimos los atributos para cumplir con los métodos anteriormente indicados.
+  - [x] Almacenaremos el turno en un entero.
+- [x] Codificamos el metodo que devuelve a quién le toca: ***toca()***
+- [x] Codificamos el metodo que devuelve a quién no le toca: ***noToca()***
+- [x] Codificamos el metodo que cambia el turno: ***cambiar()***
+
+Recapitulamos, vemos la última clase pendiente y empezamos:
+
+### Cuarta iteración
+
+- [x] Elegimos la clase: ***Jugador***
+- [x] Definimos/leemos la interfaz: devolver el color, poner ficha, mover ficha y celebrar
+- [x] Definimos los atributos para cumplir con los métodos anteriormente indicados.
+  - [x] El color de la ficha
+- [x] Codificamos los métodos
+  - [x] Codificamos el metodo que devuelve el color del jugador
+  - [x] Codificamos el metodo que celebra la victoria
+  - [x] Codificamos el metodo que permite poner una ficha
+  - [x] Codificamos el metodo que permite mover una ficha
+
+> En la siguiente iteración crearemos (y ajustaremos) las clases, métodos y demás que derivan de estas clases (puede ser durante la construcción o al final de la misma). En este caso, la clase Coordenada y los métodos de la clase Tablero.
+
+### Quinta iteración
+
+- [x] Elegimos la clase: Tablero
+- [x] Definimos/leemos la interfaz: nuevos métodos derivados de la iteración anterior.
+- [x] Definimos los atributos para cumplir con los métodos anteriormente indicados.
+  - [x] Ninguno
+- [x] Codificamos los métodos
+  - [x] Codificamos el método que indica si una casilla está ocupada
+  - [x] Codificamos el método que indica si una casilla está vacía
+  - [x] Codificamos el método que permite poner una ficha
+  - [x] Codificamos el método que permite retirar una ficha
+
+### Sexta iteración
+
+- [x] Elegimos la clase: Coordenada
+- [x] Definimos/leemos la interfaz: Recoger datos, indicar si es válida, indicar fila, indicar columna.
+- [x] Definimos los atributos para cumplir con los métodos anteriormente indicados.
+  - [x] la fila y la columna
+- [x] Codificamos los métodos
+  - [x] Codificamos el método que recoge los datos de una coordenada
+  - [x] Codificamos el método que indica si los datos pertenecen a una coordenada válida
+  - [x] Codificamos el método que devuelven la fila
+  - [x] Codificamos el método que devuelven la columna
+
